@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -34,10 +32,12 @@
                 android:textSize="15sp"
                 android:text="Ed Sheeran" />
         </LinearLayout>
+
         <Button
+            android:id="@+id/btnPlay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/play_btn"
-            android:text="PLAY"/>
+            android:layout_weight="0"
+            android:text="Play" />
     </LinearLayout>
 </android.support.v7.widget.CardView>

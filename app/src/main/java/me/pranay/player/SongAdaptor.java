@@ -1,7 +1,6 @@
 package me.pranay.player;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +9,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-
-/**
- * Created by pawankumar on 30/05/17.
- */
 
 public class SongAdaptor extends RecyclerView.Adapter<SongAdaptor.SongHolder> {
 
@@ -68,7 +63,7 @@ public class SongAdaptor extends RecyclerView.Adapter<SongAdaptor.SongHolder> {
             super(itemView);
             tvSongName = (TextView) itemView.findViewById(R.id.tvSongName);
             tvSongArtist = (TextView) itemView.findViewById(R.id.tvArtistName);
-            btnAction=(Button) itemView.findViewById(R.id.play_btn);
+            btnAction = (Button) itemView.findViewById(R.id.btnPlay);
         }
     }
 }
