@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         songAdapter.setOnItemClickListener(new SongAdaptor.OnItemClickListener() {
             @Override
             public void onItemClick(final Button b, View view, final SongInfo obj, int position) {
-                if(b.getText().equals("Stop")){
-                    mediaPlayer.stop();
+                if(b.getText().equals("PAUSE")){
+                    mediaPlayer.pause();
                     mediaPlayer.reset();
                     mediaPlayer.release();
                     mediaPlayer = null;
